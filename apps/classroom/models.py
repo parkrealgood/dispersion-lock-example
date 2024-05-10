@@ -1,7 +1,4 @@
 from django.db import models
-from django.db.models import F
-
-from apps.core.distribute_lock import DistributedLock
 
 
 class ClassRoom(models.Model):
